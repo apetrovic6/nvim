@@ -1,0 +1,1 @@
+/home/apetrovic/.config/omarchy/current/theme/neovim.lua
