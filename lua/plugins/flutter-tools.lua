@@ -37,12 +37,13 @@ return {
   -- 🔌 2. flutter-tools
   {
     "nvim-flutter/flutter-tools.nvim",
-    lazy = true,
+    lazy = false,
     dependencies = {
       "nvim-lua/plenary.nvim",
       "stevearc/dressing.nvim",
     },
     config = {
+
       debugger = {
         enabled = true,
         run_via_dap = true,
